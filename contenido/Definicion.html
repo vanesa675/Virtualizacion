@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mediaqueries.css">
+    <title>Definicion</title>
+</head>
+<body>
+    <div class="menu-links">
+        <li><a href="../contenido/Funciones.html" onclick="toggleMenu()">Funciones</a><img src="../iconos/rueda-dentada.png" width="15" height="15" alt=""></li>
+        <li><a href="contenido/Ventajas.html" onclick="toggleMenu()">Ventajas</a><img src="../iconos/motivacion.png" width="15" height="15" alt=""></li>
+        <li><a href="contenido/Desvetajas.html" onclick="toggleMenu()">Desventajas</a><img src="../iconos/pulgar-hacia-abajo.png" width="15" height="15" alt=""></li>
+        <li><a href="contenido/Graficos.html"onclick="toggleMenu()">Imagen</a><img src="../iconos/sistema-operativo.png" width="15" height="15" alt=""></li>
+        <li><a href="contenido/Importancia.html"onclick="toggleMenu()">Importancia</a><img src="../iconos/calendario.png" width="15" height="15" alt=""></li>
+    </div>
+    <h2>¿Que es Virtualizacion?</h2><br>
+    <p class="parrafo1">La virtualización es una tecnología que permite crear servicios de TI útiles, con recursos que están tradicionalmente limitados al hardware. Gracias a que distribuye las funciones de una máquina física entre varios usuarios o entornos, posibilita el uso de toda la capacidad de la máquina.</p><br>
+    <h3>¿Como funciona?</h3><br>
+    <p class="parrafo1">separa los recursos físicos de los entornos virtuales que los necesitan. Los hipervisores pueden controlar un sistema operativo (como una computadora portátil) o instalarse directamente en el hardware (como un servidor), que es la forma en que la mayoría de las empresas implementan la virtualización. Los hipervisores toman los recursos físicos y los dividen de manera tal que los entornos virtuales puedan usarlos.</p><br>
+    <h4>Entornos virtuales y máquinas virtuales</h4>
+    <p>Los recursos se dividen según las necesidades, desde el entorno físico hasta los numerosos entornos virtuales. Los usuarios interactúan con la informática y la ponen en funcionamiento dentro del entorno virtual (generalmente denominado máquina guest o máquina virtual). La máquina virtual funciona como un archivo de datos único; por eso, tal como ocurre con cualquier archivo digital, es posible trasladarla de una computadora a otra, abrirla en cualquiera de ellas, y tener la tranquilidad de que funcionará de la misma forma. <br><br>
+    Cuando el entorno virtual se está ejecutando, y un usuario o programa emite una instrucción que requiere recursos adicionales del entorno físico, el hipervisor transmite la solicitud al sistema físico y almacena los cambios en la caché. Todo esto sucede prácticamente a la misma velocidad que habría si este proceso se realizara dentro de la máquina física (en especial, si la solicitud se envía a través de un hipervisor open source diseñado a partir de la máquina virtual basada en el kernel [KVM]).</p><br>
+    <h3>Tipos de virtualizacion</h3>
+    <h4>Virtualizacion de los datos</h4>
+    <p>Los datos que se encuentran distribuidos en varias ubicaciones pueden consolidarse en una sola fuente.
+    La virtualización de los datos posibilita que las empresas los traten como si fueran un suministro dinámico, ya que proporciona funciones de procesamiento que permiten reunir datos de varias fuentes, incorporar fuentes nuevas fácilmente y transformar los datos según las necesidades de los usuarios.
+    Las herramientas que forman parte de este proceso interactúan con varias fuentes de datos y permiten tratarlas como si fueran solo una. Gracias a ello, cualquier aplicación o usuario puede obtener los datos que necesita, de la manera que los requiere en el momento justo.</p><br>
+    <h4>Virtualización de escritorios</h4>
+    <p>La virtualización de escritorios suele confundirse con la virtualización de los sistemas operativos, la cual permite implementar muchos de estos en una sola máquina. Sin embargo, la primera posibilita que un administrador central o una herramienta de administración automatizada implementen entornos simulados de escritorio en cientos de máquinas físicas al mismo tiempo. A diferencia de los entornos de escritorio tradicionales que se instalan, configuran y actualizan físicamente en cada máquina, la virtualización de escritorios permite que los administradores realicen múltiples configuraciones, actualizaciones y controles de seguridad en todos los escritorios virtuales.</p><br>
+    <h4>Virtualización de los servidores</h4>
+    <p>Los servidores son computadoras diseñadas para procesar un gran volumen de tareas específicas de forma muy efectiva para que otras computadoras (portátiles o de escritorio) puedan ejecutar otros procesos. La virtualización de un servidor, que implica dividirlo para que sus elementos puedan utilizarse para realizar varias tareas, permite ejecutar más funciones específicas.</p><br>
+    <h4>Virtualización de los sistemas operativos</h4>
+    <p>Los sistemas operativos se virtualizan en el kernel, es decir, en sus administradores centrales de tareas. Es una forma útil de ejecutar los entornos de Linux y Windows de manera paralela. Las empresas también pueden insertar sistemas operativos virtuales en las computadoras, lo cual:
+        
+        <li>Reduce los grandes gastos en sistemas de hardware, ya que las computadoras no requieren funciones tan inmediatas.</li>
+        <li>Aumenta la seguridad porque todas las instancias virtuales se pueden supervisar y aislar.</li>
+        <li>Limita el tiempo que se destina a los servicios de TI, como las actualizaciones de software.</li><br>
+    </p>
+    <h4>Virtualización de las funciones de red</h4>
+    <p>La virtualización de las funciones de red (NFV) separa las funciones clave de una red (como los servicios de directorio, el uso compartido de archivos y la configuración de IP) para distribuirlas entre los entornos. Cuando las funciones del software se independizan de las máquinas físicas donde se alojaban, las funciones específicas pueden empaquetarse en una nueva red y asignarse a un entorno. La virtualización de redes, que se utiliza con frecuencia en el sector de las telecomunicaciones, reduce la cantidad de elementos físicos (como conmutadores, enrutadores, servidores, cables y centrales) que se necesitan para crear varias redes independientes.</p>
+</body>
+</html>
