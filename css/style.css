@@ -2,8 +2,7 @@
     margin:10px;
     padding-top:1px;
     box-sizing: border-box;
-    background-color: #eaeaea
-    
+    background-color: #eaeaea;  
 }
 
 html {
@@ -18,121 +17,11 @@ html {
     width:500px;
     position: relative;
 }
-
-.titleh1{
-    color: rgb(0, 0, 0);
-}
-.logo {
-    font-weight: 600;
-    font-size: 3.8rem;
-}
-
 ul, ol {
     list-style:none;
+    padding-bottom: 2070px;
 }
 
-.nav {
-    width:500px; /*Le establecemos un ancho*/
-    margin:0 auto; /*Centramos automaticamente*/
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 50px;
-}
-
-header {
-    position: absolute;
-    padding: 0 50px;
-}
-
-header h1 {
-    font-size: 7rem;
-    
-}
-
-header p {
-    margin-top: 20px;
-    font-size: 1.7rem;
-}
-
-.nav > li {
-    float:left;
-}
-
-.nav li a {
-    background-color:#000;
-    color:#fff;
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
-}
-
-.nav li a:hover {
-    background-color:#434343;
-}
-
-.nav li ul {
-    display:inline-block;
-    list-style: none;
-    padding: 6px, 20px;
-    font-weight: 500;
-    font-size: 1.7rem;
-    transition: all 0.3 ease 0s;
-    position:absolute;
-    min-width:140px;
-    cursor: pointer;
-}
-
-.nav li ul:hover {
-    background-color: #00ffff;
-    color:#fff;
-    border-radius: 20px;
-}
-
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-
-.nav li ul li ul {
-    right:-140px;
-    top:0px;
-}   
-
-.header .temas {
-    position: absolute;
-    height: 600px;
-    width: 550px;
-    right: 7%;
-    bottom: 0;
-    z-index: 999;
-}
-
-.header .fondo-temas {
-    position: absolute;
-    height: 550px;
-    width: 550px;
-    right: 9%;
-    bottom: 0;
-}
-
-.iconos {
-    position: absolute;
-    bottom: 8%;
-    padding: 0 50px;
-}
-
-.iconos > i{
-    font-size: 2.5rem;
-    padding: 0 10px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-}
-
-.iconos > i:hover {
-    color: #00ffff;
+.container{
+    float: left;
 }
